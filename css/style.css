@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    border-radius: 100%;
+}
+
+:root{
+    --Laranja: #fcb40b;
+    --Amarelo: #fbcf67;
+    --Vermelho_terra:  #c34e0d;
+    --Verde_musgo: #689480;
+    --Cinza_branco: #f2f0ea;
+    --Branco: #ffffff; 
+}
+
+.nav-top{
+    background-color: var(--Laranja)
+}
+
+.nav-link{
+    color: var(--Laranja) !important;
+    background-color: var(--Branco) !important;
+    border-radius: 0.5em !important;
+}
+
+.nav-item{
+    margin: 0.5em !important;
+    padding: 0.5px !important;
+}
+
+.btn-buscar{
+    color: var(--Branco) !important;
+    background-color: var(--Verde_musgo) !important;
+}
+
+.car-img{
+    max-height: 50em !important;
+}
+
+.carousel-caption {
+    width: auto !important;
+    background-color: rgba(242, 240, 234, 0.6) !important; /* 0.2 = 80% opaco */
+    color: var(--Vermelho_terra) !important;
+    border-radius: 10px; /* opcional, deixa arredondado */
+    padding: 10px; /* opcional, dá espaço interno */
+}
+
+
+.divisao{
+    background-color: var(--Vermelho_terra) !important;
+    text-align: center !important;
+    color: var(--Amarelo) !important;
+    padding: 2em !important;
+}
+
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important;
+}
+
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+
+.nav-top {
+  background: linear-gradient(to right, var(--Laranja), var(--Vermelho_terra));
+}
+
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.sec-contato{
+    margin-top: 5% !important;
+}
+
+.maps{
+    margin-top: 10% !important;
+}
+
+.footer,p{
+    background-color: var(--Vermelho_terra) !important;
+    color: var(--Cinza_branco) !important;
+    text-align: center !important;
+}
