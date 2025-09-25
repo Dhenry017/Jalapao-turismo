@@ -86,7 +86,7 @@
     margin-top: 10% !important;
 }
 
-.footer,p{
+.footer-direito{
     background-color: var(--Vermelho_terra) !important;
     color: var(--Cinza_branco) !important;
     text-align: center !important;
